@@ -104,42 +104,74 @@ else {
 //============= Exercicio 06/15 ==============
 
 
-if (a.toLowerCase()  === 'peão') {
+switch (b.toLowerCase()) {
+    case 'peão':
 
-    console.log('Primeira jogada anda duas para frente e nas próximas uma para frente:', a);
+    console.log('Primeira jogada anda duas para frente e nas próximas uma para frente:', b);
 
-}
-else if (a.toLowerCase() === 'torre') {
+    break;
 
-    console.log('anda para frente e laterais quantas casas poder:', a);
+    case 'torre':
 
-}
-else if (a.toLowerCase() === 'bispo') {
+    console.log('anda para frente e laterais quantas casas poder:', b);
 
-    console.log('anda nas diagonais quantas casas poder:', a);
+    break;
 
-}
-else if (a.toLowerCase() === 'rainha') {
+    case 'bispo':
 
-    console.log('anda para qualquer canto quantas casas poder:', a);
+    console.log('anda nas diagonais quantas casas poder:', b);
 
-}
-else if (a.toLowerCase() === 'rei') {1
+    break;
 
-    console.log('anda uma casa para todos os lados:', a);
+    case 'rainha':
 
-}
-else (
+    console.log('anda para qualquer canto quantas casas poder:', b);
+
+    break;
+
+    case 'rei':
+
+    console.log('anda uma casa para todos os lados:', b);
+
+    break;
+default:
+
     console.log('Peça de xadrez invalida!')
-)
+
+}
+
+// if (a.toLowerCase()  === 'peão') {
+
+//     console.log('Primeira jogada anda duas para frente e nas próximas uma para frente:', a);
+
+// }
+// else if (a.toLowerCase() === 'torre') {
+
+//     console.log('anda para frente e laterais quantas casas poder:', a);
+
+// }
+// else if (a.toLowerCase() === 'bispo') {
+
+//     console.log('anda nas diagonais quantas casas poder:', a);
+
+// }
+// else if (a.toLowerCase() === 'rainha') {
+
+//     console.log('anda para qualquer canto quantas casas poder:', a);
+
+// }
+// else if (a.toLowerCase() === 'rei') {1
+
+//     console.log('anda uma casa para todos os lados:', a);
+
+// }
+// else (
+//     console.log('Peça de xadrez invalida!')
+// )
 
 //============= Exercicio 07/15 ==============
 
-const a = 105;
-// const b = 'torre';
-// const c = 'bispo';
-// const d = 'rainha';
-// const e = 'rei';
+
 
 
 if (a < 0 || a > 100) {
@@ -171,3 +203,40 @@ else if (a < 50) {
 
     console.log('Sua nota é F');
 }
+
+//============= Exercicio 08/15 ==============
+
+
+
+if (a % 2 === 0 || b % 2 === 0 || c % 2 === 0) {
+
+    console.log('true');
+}
+else{
+
+    console.log('Nenhum números é par');
+
+}
+
+//============= Exercicio 09/15 ==============
+
+
+
+if (a % 2 !== 0 || b % 2 !== 0 || c % 2 !== 0) {
+
+    console.log('true');
+}
+else{
+
+    console.log('Nenhum números é impar');
+
+}
+
+//============= Exercicio 10/15 ==============
+
+const a = 1050;
+const b = 330;
+const c = 310;
+// const d = 'rainha';
+// const e = 'rei';
+
