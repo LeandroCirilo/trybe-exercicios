@@ -46,9 +46,7 @@ else {
 
 //============= Exercicio 03/15 ==============
 
-const a = 550;
-const b = 1110;
-const c = 100
+
 
 if (a > b && a > c) {
 
@@ -67,3 +65,109 @@ else {
 
 //============= Exercicio 04/15 ==============
 
+
+
+
+if (a > 0) {
+
+    console.log('Positive');
+
+}
+else if (a < 0) {
+
+    console.log('negative');
+
+}
+else {
+    console.log('zero');
+
+}
+
+//============= Exercicio 05/15 ==============
+
+
+if (a + b + c === 180) {
+
+    console.log('true');
+
+}
+else if (a < 0 || b < 0 || c < 0) {
+
+    console.log('Erro, valor negativo');
+
+}
+else {
+    console.log('false');
+
+}
+
+//============= Exercicio 06/15 ==============
+
+
+if (a.toLowerCase()  === 'peão') {
+
+    console.log('Primeira jogada anda duas para frente e nas próximas uma para frente:', a);
+
+}
+else if (a.toLowerCase() === 'torre') {
+
+    console.log('anda para frente e laterais quantas casas poder:', a);
+
+}
+else if (a.toLowerCase() === 'bispo') {
+
+    console.log('anda nas diagonais quantas casas poder:', a);
+
+}
+else if (a.toLowerCase() === 'rainha') {
+
+    console.log('anda para qualquer canto quantas casas poder:', a);
+
+}
+else if (a.toLowerCase() === 'rei') {1
+
+    console.log('anda uma casa para todos os lados:', a);
+
+}
+else (
+    console.log('Peça de xadrez invalida!')
+)
+
+//============= Exercicio 07/15 ==============
+
+const a = 105;
+// const b = 'torre';
+// const c = 'bispo';
+// const d = 'rainha';
+// const e = 'rei';
+
+
+if (a < 0 || a > 100) {
+
+    console.log('Valor invalido!');
+}
+else if (a >= 90) {
+
+    console.log('Sua nota é A');
+
+}
+else if (a >= 80) {
+
+    console.log('Sua nota é B');
+}
+else if (a >= 70) {
+
+    console.log('Sua nota é C');
+}
+else if (a >= 60) {
+
+    console.log('Sua nota é D');
+}
+else if (a >= 50) {
+
+    console.log('Sua nota é E');
+}
+else if (a < 50) {
+
+    console.log('Sua nota é F');
+}
