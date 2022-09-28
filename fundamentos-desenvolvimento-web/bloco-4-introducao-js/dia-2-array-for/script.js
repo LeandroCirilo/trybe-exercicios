@@ -89,5 +89,34 @@ for(let index = 1; index < 26; index += 1){
 
 
 for(let index = 0; index < 25; index += 1){
-    console.log(vinteCinco[index] / 2)
+    console.log(vinteCinco[index] / 2);
 }
+
+//============== BONUS ORDENAR CRESCENTE ===========
+
+let numbers2 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+numbers2.sort((a,b) => a - b);
+
+console.log(numbers2);
+
+//============== BONUS ORDENAR DECRESCENTE =========
+
+let numbers3 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+numbers3.sort((a,b) => b - a);
+
+console.log(numbers3);
+
+//============== BONUS MULTIPLICAR PELO SEGUINTE ===
+
+let numbers4 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let numbers5 = []
+
+for(let index = 0; index < numbers4.length; index += 1){
+    numbers5.push(numbers4[index] * numbers4[index + 1])
+}
+numbers5.pop();
+numbers5.push(numbers4[9] * 2)
+console.log(numbers5);
+
